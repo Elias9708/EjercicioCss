@@ -1,4 +1,4 @@
-#contenedor{
+#contenedor {
     width: 400px;
     height: 400px;
     border-radius: 15%;
@@ -34,6 +34,7 @@
 #textoNombre{
     color: white;
     font-family: 'Times New Roman', Times, serif;
+    
 }
 
 #descuento{
@@ -52,7 +53,9 @@
 
 #contenedorPrecio{
     display: flex;
-    justify-content: space-between;
+    flex-direction: row;
+    align-items: baseline;
+    justify-content: space-around;
     width: 400px;
     margin-left: 10px;
     margin-top: 30px;
@@ -61,3 +64,24 @@
 #antes{
     color: #f44336;
 }
+#precioAntes{
+    color: #f44336;
+    text-decoration: line-through;
+}
+
+#Pedir{
+    background: #f44336;
+    border: none;
+    border-radius: 5%;
+    color: white;
+    width: 60px;
+    height: 40px;
+    
+    
+}
+
+#barra{
+    font-weight: bolder;
+}
+
+
